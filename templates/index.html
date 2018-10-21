@@ -2,7 +2,7 @@
 <title>
 </title>
 <body>
-<form method = "" action="">
+<form method ="post" action="http://localhost:5000/addMovie">
   {{ form.hidden_tag() }}
   {% for message in get_flashed_messages() %}
   {{ message }}
